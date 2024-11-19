@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Kelulusan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        thead {
+            background-color: #007bff;
+            color: #fff;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            position: sticky;
+            top: 0;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tbody tr:hover {
+            background-color: #d1ecf1;
+            cursor: pointer;
+        }
+        .highlight {
+            color: #007bff;
+            font-weight: bold;
+        }
+        caption {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabel Kelulusan</h1>
+    <table>
+        <caption>Daftar Nilai Siswa Lulus UGM</caption>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nama</th>
+                <th>Kelas</th>
+                <th>Nilai</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Khanza Rahmadani</td>
+                <td>11 IPA</td>
+                <td class="highlight">98</td>
+                <td>Lulus</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Aditya Pratama</td>
+                <td>11 IPA</td>
+                <td class="highlight">95</td>
+                <td>Lulus</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Clara Wijaya</td>
+                <td>11 IPA</td>
+                <td>90</td>
+                <td> Lulus</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Dina Kusuma</td>
+                <td>11 IPA</td>
+                <td>88</td>
+                <td>Lulus</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Rizky Ardiansyah </td>
+                <td>11 IPA</td>
+                <td>85</td>
+                <td>Lulus</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
